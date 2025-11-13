@@ -1,0 +1,10 @@
+llm_model: "gpt-5"
+temperature: 0
+target_project: "playwright-migrated"
+max_workers: 5
+max_retries: 2
+checkpoint_file: "migration_checkpoint.json"
+validate_sample_size: 5
+github_repo: "https://github.com/example-org/selenium-cucumber-framework.git"
+openai_api_key: "sk-12345example"
+enable_self_healing: true
