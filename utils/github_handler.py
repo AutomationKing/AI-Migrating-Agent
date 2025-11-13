@@ -3,7 +3,7 @@ import subprocess
 import tempfile
 from urllib.parse import urlparse
 
-def clone_repo(repo_url: str) -> str:
+def clone_repo(repo_url: str) -> str: 
     """
     Clone a GitHub repository to a temporary folder and return the local path.
     If the repo already exists in temp, it will remove it first.
