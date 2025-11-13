@@ -1,7 +1,3 @@
-import os
-import subprocess
-import tempfile
-from urllib.parse import urlparse
 
 def clone_repo(repo_url: str) -> str: 
     """
@@ -22,3 +18,4 @@ def clone_repo(repo_url: str) -> str:
     subprocess.run(["git", "clone", repo_url, temp_dir], check=True)
     
     return temp_dir
+
