@@ -1,0 +1,6 @@
+gitpython
+langchain
+openai
+python-dotenv
+pyyaml
+tqdm
